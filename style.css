@@ -1,0 +1,158 @@
+.contenedor {
+    width: 100%;
+    margin: 0px auto;
+}
+
+ul li {
+    display: inline-block;
+    border: 2px black solid;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.listaMenu {
+    text-align: center;
+    background-color: gray;
+    font-size: 25px;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.contenido-Carrito {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.card {
+    box-shadow: 0 2px 4px black;
+    max-width: 300px;
+    margin: 8px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card > img {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.precio {
+    color: gray;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 50px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+.comprar {
+    justify-content: center;
+    
+}
+
+.contenedorCarrito {
+    display: flex;
+    justify-content: flex-end;
+}
+.iconoCarrito {
+    font-size: 35px;
+    margin: 15px;
+}
+
+.total-contenido {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    border: 2px black solid
+
+}
+
+.ventana-contenedor {
+    display: flex;
+    border: 2px black solid;
+}
+
+
+.ventana-header-boton {
+    margin: 10px;
+}  
+
+.ventana-header {
+    border: 2px black solid
+}
+
+.ventana-header-item {
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.parrafoVentana {
+    text-align: center;
+}
+
+
+.botonBorrar {
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
