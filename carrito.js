@@ -30,11 +30,11 @@ const renderizarCarrito = () => {
         carritoContenido.className = "ventana-contenedor"
         carritoContenido.innerHTML = `
         <h3>${producto.nombre}</h3>
-        <p>${producto.precioPorKg} $</p>
+        <p>${producto.precio} $</p>
         <span class="restar"> - </span>
         <p>${producto.cantidad}</p>
         <span class="sumar"> + </span>
-        <p>Total: ${producto.cantidad * producto.precioPorKg} $</p>
+        <p>Total: ${producto.cantidad * producto.precio} $</p>
         <span class="borrar-producto"> ❌ </span>`
 
 
@@ -63,7 +63,7 @@ const renderizarCarrito = () => {
             eliminarProducto(producto.id);
         });
 
-         
+
     })
 
 
@@ -72,12 +72,10 @@ const renderizarCarrito = () => {
 
     const total = carrito.reduce((acc, el) => acc + el.precioPorKg, 0)
 
-
-
-
-
-
-    
+    let totalCompra = document.createElement("div");
+    totalCompra.className = "total-contenido";
+    totalComrpa.innerHTML = `Total a pagar: ${total} $`;
+    ventanaContenedor.append(totalCompra);
 
 
     let finalizarCompra = document.createElement("button")
@@ -94,10 +92,6 @@ const renderizarCarrito = () => {
             timer: 1500
         })
     });
-
-
-    
-
 };
 
 verCarrito.addEventListener("click", renderizarCarrito);
