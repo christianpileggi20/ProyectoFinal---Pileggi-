@@ -30,12 +30,19 @@ const renderizarCarrito = () => {
         carritoContenido.className = "ventana-contenedor"
         carritoContenido.innerHTML = `
         <h3>${producto.nombre}</h3>
+
         <p>${producto.precio} $</p>
+
         <span class="restar"> - </span>
+
         <p>${producto.cantidad}</p>
+
         <span class="sumar"> + </span>
+
         <p>Total: ${producto.cantidad * producto.precio} $</p>
+
         <span class="borrar-producto"> ❌ </span>`
+        carritoContenido.style.display = "block"
 
 
         ventanaContenedor.append(carritoContenido)

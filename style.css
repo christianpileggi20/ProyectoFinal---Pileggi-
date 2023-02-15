@@ -111,11 +111,23 @@ footer {
 
 }
 
+
+
 .ventana-contenedor {
     display: flex;
+    
     border: 2px gray solid;
+    
 }
 
+
+.ventana-contenedor p {
+    text-align: center;
+}
+
+.ventana-contenedor::-webkit-scrollbar {
+    display: none;
+  }
 
 .ventana-header-boton {
     margin: 10px;
@@ -125,6 +137,7 @@ footer {
 
 .ventana-header {
     border: 2px gray solid;
+   
 
 }
 
@@ -154,19 +167,19 @@ h3 {
 
 .borrar-producto {
     cursor: pointer;
+    margin-left: 45%;
 }
 
 .sumar {
     cursor: pointer;
-    
-    margin: 8px;
-    
+    margin-left: 48%;
+
 }
-  
 .restar {
     cursor: pointer;
+    margin-left: 48%;
     
-    margin: 8px;
+    
 }
 
 

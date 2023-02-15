@@ -1,7 +1,7 @@
 [
-    {"id": 1, "nombre":"Cremoso Punta del Agua" , "precioPorKg": 1500, "img": "https://d22fxaf9t8d39k.cloudfront.net/15f05ea900edf5d10aafad2e49f0070534328afe451eacd1d73307b80d95df0568416.jpeg", "cantidad": 1},
+    {"id": 1, "nombre":"Punta del Agua" , "precioPorKg": 1500, "img": "https://d22fxaf9t8d39k.cloudfront.net/15f05ea900edf5d10aafad2e49f0070534328afe451eacd1d73307b80d95df0568416.jpeg", "cantidad": 1},
 
-    {"id": 2, "nombre":"Cocido San Jose" , "precioPorKg": 2000, "img": "https://alimentossanjose.com.ar/wp-content/uploads/2021/12/Natural-reducido-en-sodio.png", "cantidad": 1},
+    {"id": 2, "nombre":"Cocido" , "precioPorKg": 2000, "img": "https://alimentossanjose.com.ar/wp-content/uploads/2021/12/Natural-reducido-en-sodio.png", "cantidad": 1},
 
 
     {"id": 3, "nombre":"Jamon Cocido" , "precioPorKg": 2500, "img": "https://maricre.com.ar/wp-content/uploads/2020/07/149.jpg", "cantidad": 1},
@@ -10,14 +10,14 @@
     {"id": 4, "nombre":"Jamon Crudo" , "precioPorKg": 3500, "img":"https://www.frigorificorecreo.com/wp-content/uploads/2018/08/Jamo%CC%81n-Crudo-Recreo-para-web.png", "cantidad": 1},
 
 
-    {"id": 5, "nombre":"Barra de queso Cremigal", "precioPorKg": 2000, "img":"https://i0.wp.com/cremigal.com/wp-content/uploads/2020/05/queso-tybo-1.png?fit=2500%2C2500&ssl=1", "cantidad": 1},
+    {"id": 5, "nombre":"Barra de queso", "precioPorKg": 2000, "img":"https://i0.wp.com/cremigal.com/wp-content/uploads/2020/05/queso-tybo-1.png?fit=2500%2C2500&ssl=1", "cantidad": 1},
 
 
-    {"id": 6, "nombre":"Jamon Natural San Jose" , "precioPorKg": 3000, "img": "https://www.clarin.com/img/2020/11/09/g-Xutf_ux_720x0__1.jpg", "cantidad": 1},
+    {"id": 6, "nombre":"Jamon Natural" , "precioPorKg": 3000, "img": "https://www.clarin.com/img/2020/11/09/g-Xutf_ux_720x0__1.jpg", "cantidad": 1},
 
 
     {"id": 7, "nombre":"Bondiola" , "precioPorKg": 1800, "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXrmx-Jh0EbauHjFaEb6Zcldzk-yv-oib3QPYovscopvdl6oDMIFgnFGhECBfOZJWIjfY&usqp=CAU", "cantidad": 1},
 
 
-    {"id": 8, "nombre":"Salame Tipo Milan Bierzo" , "precioPorKg": 2500, "img": "https://distribuidorasabatini.com/app/files/company_23/products/161843_salamemilanelbierzo.jpg", "cantidad": 1}
+    {"id": 8, "nombre":"Salame" , "precioPorKg": 2500, "img": "https://distribuidorasabatini.com/app/files/company_23/products/161843_salamemilanelbierzo.jpg", "cantidad": 1}
 ]
