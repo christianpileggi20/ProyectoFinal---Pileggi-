@@ -49,52 +49,47 @@ footer {
 
 .contenido-Carrito {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
-    
+    margin-left: 60px;
+    margin-right: 60px;
 }
-
 .card {
-    box-shadow: 0 2px 4px black;
+    box-shadow: 0 4px 8px 0 black;
     max-width: 300px;
-    margin: 8px auto;
+    margin: auto;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+    font-family: arial;
+    margin: 10px;
+  }
+  
 .card > img {
     width: 90%;
     height: 250px;
-    object-fit: cover;
-}
-
+  }
+  
 .precio {
-    color: gray;
+    color: grey;
     font-size: 22px;
-}
-
+  }
+  
 .card button {
     border: none;
     outline: 0;
-    padding: 50px;
+    padding: 12px;
     color: white;
-    background-color: blue;
+    background-color: #000;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
 }
-
+  
 .card button:hover {
     opacity: 0.7;
 }
-.comprar {
-    justify-content: center;
-    
-}
+
 
 .contenedorCarrito {
     display: flex;
@@ -110,22 +105,25 @@ footer {
     justify-content: center;
     font-size: 20px;
     text-align: center;
-    border: 2px black solid
+    border: 2px gray solid
 
 }
 
 .ventana-contenedor {
     display: flex;
-    border: 2px black solid;
+    border: 2px gray solid;
 }
 
 
 .ventana-header-boton {
     margin: 10px;
+    text-align: center;
+    cursor: pointer;
 }  
 
 .ventana-header {
-    border: 2px black solid
+    border: 2px gray solid;
+
 }
 
 .ventana-header-item {
@@ -137,9 +135,7 @@ h3 {
     margin: 10px;
 }
 
-.parrafoVentana {
-    text-align: center;
-}
+
 
 
 .botonBorrar {
@@ -149,6 +145,14 @@ h3 {
 
 
 .borrar-producto {
+    cursor: pointer;
+}
+
+.sumar {
+    cursor: pointer;
+}
+  
+.restar {
     cursor: pointer;
 }
 

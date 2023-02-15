@@ -70,7 +70,7 @@ const renderizarCarrito = () => {
 
 
 
-    const total = carrito.reduce((acc, el) => acc + el.precio, 0)
+    const total = carrito.reduce((acc, el) => acc + el.precio * el.cantidad, 0)
 
     let totalCompra = document.createElement("div");
     totalCompra.className = "total-contenido";
