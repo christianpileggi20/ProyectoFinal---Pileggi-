@@ -70,11 +70,11 @@ const renderizarCarrito = () => {
 
 
 
-    const total = carrito.reduce((acc, el) => acc + el.precioPorKg, 0)
+    const total = carrito.reduce((acc, el) => acc + el.precio, 0)
 
     let totalCompra = document.createElement("div");
     totalCompra.className = "total-contenido";
-    totalComrpa.innerHTML = `Total a pagar: ${total} $`;
+    totalCompra.innerHTML = `Total a pagar: ${total} $`;
     ventanaContenedor.append(totalCompra);
 
 
