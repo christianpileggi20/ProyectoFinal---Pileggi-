@@ -27,8 +27,9 @@ const asProductos = async () => {
         let comprar = document.createElement("button");
         comprar.innerText = "Agregar al carrito";
         comprar.className = "comprar";
+        
 
-        contenidoCarrito.append(comprar);
+        contenido.append(comprar);
 
 
 
@@ -53,6 +54,7 @@ const asProductos = async () => {
                     cantidad: producto.cantidad,
                 });
                 guardarLocal()
+                renderizarCarrito();
        }   })
     })
 }
@@ -62,7 +64,17 @@ asProductos();
 
 
 
-
+verCarrito.addEventListener("click", () => {
+    Swal.fire({
+        title: 'Si deslizas hacia abajo veras tu carrito👀',
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        }
+      })
+});
 
 
 

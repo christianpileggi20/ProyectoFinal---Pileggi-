@@ -13,7 +13,7 @@ const renderizarCarrito = () => {
 
 
     const ventanaBoton = document.createElement("h1")
-    ventanaBoton.innerText = "X"
+    ventanaBoton.innerText = "❌"
     ventanaBoton.className = "ventana-header-boton"
 
 
